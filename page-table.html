@@ -1,0 +1,212 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Database Change Control</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="top-bar sticky" data-sticky data-margin-top="0">
+  <div class="top-bar-left">
+    <div class="top-bar-logo"><img src="img/logo-dcc-min.png"></div>
+    <a class="top-button-menu" href="#"><img src="img/menu-button.png"></a>
+    <nav aria-label="You are here:" role="navigation">
+      <ul class="breadcrumbs">
+        <li>Home</li>
+        <li>Search</li>
+        <li>
+          <span class="show-for-sr">Current: </span> Artifacts
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="top-bar-right hide-for-small-only">
+    <div class="top-bar-lang">
+      <a href="#">ES </a> | <a href="#" class="active"> EN</a>
+    </div>
+  </div>
+</div>
+
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+    <div class="off-canvas position-left reveal-for-medium" id="my-info" data-off-canvas="" data-position="left" aria-hidden="true" data-offcanvas="29mu8s-offcanvas">
+      <ul class="vertical menu accordion-menu profile-menu" data-accordion-menu>
+        <li>
+          <a href="page-profile.html"><div class="profile-pic-min">GS</div><span>Gea Scorcia</span></a>
+        </li>
+      </ul>
+      <ul class="vertical menu accordion-menu" data-accordion-menu>
+        <li>
+          <a href="#">Administration</a>
+          <ul class="menu vertical nested">
+            <li><a href="#">Add</a></li>
+            <li><a href="page-table-actions.html">Search</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Initial Data</a>
+          <ul class="menu vertical nested">
+            <li><a href="page-table.html">Add</a></li>
+            <li><a href="page-table.html">Insert</a></li>
+            <li><a href="page-table.html">Modify</a></li>
+            <li><a href="page-table.html">Delete</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Search</a>
+          <ul class="menu vertical nested">
+            <li><a href="page-table.html">Table</a></li>
+            <li><a href="page-table.html">Artifact</a></li>
+            <li><a href="page-table.html">Requirement</a></li>
+            <li><a href="page-table.html">Release</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content="">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="cell small-12">
+
+            <h3>Search Artifacts</h3>
+
+            <div class="input-group">
+              <input type="search" placeholder="Search artifact by name or number" class="input-group-field">
+              <span class="button input-group-label">Search</span>
+            </div>
+
+            <div class="table-container box-shadow">
+              <div class="callout table-header">
+                <div class="table-header-cell"><strong>28 artifacts</strong></div>
+                <div class="table-header-cell">
+                  <ul class="pagination text-right" role="navigation" aria-label="Pagination">
+                    <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+                    <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                    <li><a href="#" aria-label="Page 2">2</a></li>
+                    <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <table class="hover table-scroll">
+                <thead>
+                  <tr>
+                    <th>Artifact No.</th>
+                    <th>Name</th>
+                    <th>Creation date</th>
+                    <th>created by</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>35342</td>
+                    <td>ID - origination</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>3234</td>
+                    <td>ID - Payment</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35234</td>
+                    <td>ID - Refiance</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35342</td>
+                    <td>ID - origination</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>3234</td>
+                    <td>ID - Payment</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35234</td>
+                    <td>ID - Refiance</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35342</td>
+                    <td>ID - origination</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>3234</td>
+                    <td>ID - Payment</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35234</td>
+                    <td>ID - Refiance</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35342</td>
+                    <td>ID - origination</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>3234</td>
+                    <td>ID - Payment</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35234</td>
+                    <td>ID - Refiance</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35342</td>
+                    <td>ID - origination</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>3234</td>
+                    <td>ID - Payment</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                  <tr>
+                    <td>35234</td>
+                    <td>ID - Refiance</td>
+                    <td>04/21/2017</td>
+                    <td>Gea Scorcia</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+        <div class="footnote">GSBE© 2017</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
